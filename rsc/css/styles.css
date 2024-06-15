@@ -1,0 +1,95 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.proud-of-this-css {
+  color: papayawhip;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Full width of the form */
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: red;
+  display: none;
+}
+
+#success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.attribution {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+.consent-label {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.consent-label input {
+  margin-right: 10px;
+}
